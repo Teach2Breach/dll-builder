@@ -2,7 +2,7 @@
 Creates a DLL that runs a payload once injected into a process.
 
 ### Educational purposes only
-Do not use this project maliciously.
+Don't use this project maliciously.
 
 ### License
 This project is licensed under the terms of the MIT license.
