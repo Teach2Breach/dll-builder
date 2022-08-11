@@ -1,6 +1,9 @@
 # DLL Builder
 Creates a DLL that runs a payload once injected into a process.
 
+### Educational purposes only
+Only use this on your own machine and do not use it maliciously. 
+
 ### License
 This project is licensed under the terms of the MIT license.
 
