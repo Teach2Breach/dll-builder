@@ -1,0 +1,12 @@
+[workspace]
+members = [
+	"builder",
+	"runtime"
+]
+
+[profile.release]
+opt-level = "z"     # Optimize for size.
+lto = "fat"         # Enable Link Time Optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations.
+panic = "abort"     # Abort on panic
+strip = "symbols"   # Strip symbols from binary
