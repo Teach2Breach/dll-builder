@@ -1,11 +1,6 @@
 use std::{env, fs, io::Read, path::Path};
 use xz2::bufread::XzEncoder;
 
-/*
-TODO:
-Test if the current code works
-*/
-
 fn main() {
     let args: Vec<String> = env::args().collect();
     let input_filename = args.get(1).unwrap().to_string();
