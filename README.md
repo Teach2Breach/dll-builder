@@ -1,14 +1,13 @@
 ### Educational purposes only
 Don't use this project maliciously.
 
-### License
-This project is licensed under the terms of the MIT license.
+### Prerequisites
+1. Install [rust](https://www.rust-lang.org/tools/install)
+2. Install windows [toolchain](https://rust-lang.github.io/rustup/installation/windows.html)
 
-### How to use
-1. Make sure you have rust installed
-1. Open it in VS Code or your preferred IDE
-2. Run `cargo run --bin builder  -- <file>`
-3. Run (x64) `cargo build --release --lib` (x86) `cargo build --release --lib --target=i686-pc-windows-msvc`
+### Setup
+1. Run `cargo run --bin builder -- <file>`
+2. Run `cargo build --release --target=x86_64-pc-windows-msvc --lib`
 
 ### Disclaimer
 Build the runtime for the same architecture as your target process.
