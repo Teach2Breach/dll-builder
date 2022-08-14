@@ -1,6 +1,3 @@
-# DLL Builder
-Creates a DLL that runs a payload once injected into a process.
-
 ### Educational purposes only
 Don't use this project maliciously.
 
